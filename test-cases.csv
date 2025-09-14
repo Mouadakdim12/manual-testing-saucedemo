@@ -4,3 +4,8 @@ TC-002,Login mit ungültigem Passwort,App ist erreichbar,"1) URL öffnen 2) Benu
 TC-003,Produkt in den Warenkorb legen,Benutzer ist eingeloggt,"1) Produkt auswählen 2) Add to Cart klicken 3) Warenkorb öffnen","Produkt erscheint im Warenkorb mit korrektem Namen/Preis",,,Hoch,Mittel,
 TC-004,Checkout erfolgreich,Benutzer ist eingeloggt und hat ein Produkt im Warenkorb,"1) Checkout klicken 2) Daten eingeben 3) Kauf bestätigen","Bestätigungsmeldung wird angezeigt, Warenkorb ist leer",,,Hoch,Hoch,
 TC-005,Logout zurück zur Login-Seite,Benutzer ist eingeloggt,"1) Menü öffnen 2) Logout klicken","Benutzer landet zurück auf der Login-Seite",,,Mittel,Mittel,
+TC-006,Produkte nach Preis sortieren,Benutzer ist eingeloggt,"1) Auf Sortieren-Menü klicken 2) 'Preis (niedrig nach hoch)' wählen","Produkte erscheinen aufsteigend nach Preis",,,Mittel,Minor,
+TC-007,Checkout ohne Eingabe von Pflichtfeldern,Benutzer ist eingeloggt und hat ein Produkt im Warenkorb,"1) Checkout klicken 2) Keine Daten eingeben 3) Auf 'Continue' klicken","Fehlermeldung erscheint für Pflichtfelder",,,Hoch,Hoch,
+TC-008,Mehrere Produkte in den Warenkorb legen,Benutzer ist eingeloggt,"1) Drei verschiedene Produkte hinzufügen 2) Warenkorb öffnen","Alle 3 Produkte erscheinen im Warenkorb mit korrekten Details",,,Hoch,Mittel,
+TC-009,Produkt aus Warenkorb entfernen,Benutzer ist eingeloggt und hat ein Produkt im Warenkorb,"1) Warenkorb öffnen 2) Produkt entfernen","Produkt verschwindet aus dem Warenkorb, Gesamtpreis wird angepasst",,,Hoch,Mittel,
+TC-010,Seite aktualisieren nach Login,Benutzer ist eingeloggt,"1) Nach erfolgreichem Login die Seite aktualisieren (F5)","Benutzer bleibt eingeloggt und sieht die Produkteseite",,,Mittel,Minor,
