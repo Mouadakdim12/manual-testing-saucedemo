@@ -1,4 +1,6 @@
 ID,Title,Pre-conditions,Steps,Expected,Actual,Status,Priority,Severity,Notes
-TC-001,Login mit gültigem Benutzer,App ist erreichbar,"1) URL öffnen https://www.saucedemo.com/ 2) Benutzername: standard_user 3) Passwort: secret_sauce 4) Login klicken","Benutzer landet auf der Produkte-Seite",,,Hoch,Mittel,
+TC-001,Login mit gültigen Daten,App ist erreichbar,"1) URL öffnen 2) Benutzername: standard_user 3) Passwort: secret_sauce 4) Login klicken","Benutzer landet auf der Produkte-Seite",,,Hoch,Mittel,
 TC-002,Login mit ungültigem Passwort,App ist erreichbar,"1) URL öffnen 2) Benutzername: standard_user 3) Passwort: falsch 4) Login klicken","Fehlermeldung wird angezeigt, Login bleibt auf Login-Seite",,,Hoch,Hoch,
-TC-003,Produkt zum Warenkorb hinzufügen,Benutzer ist eingeloggt,"1) Auf 'Add to cart' klicken 2) Warenkorb öffnen","Produkt erscheint im Warenkorb mit richtigem Namen/Preis",,,Hoch,Mittel,"Screenshot hinzufügen"
+TC-003,Produkt in den Warenkorb legen,Benutzer ist eingeloggt,"1) Produkt auswählen 2) Add to Cart klicken 3) Warenkorb öffnen","Produkt erscheint im Warenkorb mit korrektem Namen/Preis",,,Hoch,Mittel,
+TC-004,Checkout erfolgreich,Benutzer ist eingeloggt und hat ein Produkt im Warenkorb,"1) Checkout klicken 2) Daten eingeben 3) Kauf bestätigen","Bestätigungsmeldung wird angezeigt, Warenkorb ist leer",,,Hoch,Hoch,
+TC-005,Logout zurück zur Login-Seite,Benutzer ist eingeloggt,"1) Menü öffnen 2) Logout klicken","Benutzer landet zurück auf der Login-Seite",,,Mittel,Mittel,
