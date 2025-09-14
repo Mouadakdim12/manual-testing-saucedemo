@@ -1,0 +1,6 @@
+Requirement ID,Requirement Description,Test Case IDs,Status
+RQ-001,Login mit gültigen Daten ermöglicht Zugriff,TC-001,Abgedeckt
+RQ-002,Login mit ungültigen Daten zeigt Fehlermeldung,TC-002,Geplant
+RQ-003,Produkte können zum Warenkorb hinzugefügt/entfernt werden,TC-003,Geplant
+RQ-004,Checkout-Prozess funktioniert korrekt,TC-004,Offen
+RQ-005,Logout bringt Benutzer zurück zur Login-Seite,TC-005,Offen
